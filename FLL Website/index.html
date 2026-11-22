@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cave Monitor</title>
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="menu-container">
+        <button class="menu-button"
+                onclick="toggleMenu()"
+                aria-label="Menü öffnen"
+                aria-expanded="false"
+                id="menuButton">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav class="dropdown-menu" id="dropdown">
+            <a href="/html/Expertenmeinungen.html">
+                Expertenmeinungen
+            </a>
+            <a href="/html/Unsere Sponsoren.html">
+                Unsere Partner
+            </a>
+            <a href="/html/Live Werte.html">
+                Live Werte
+            </a>
+            <a href="/html/Unser Projekt.html">
+                Unser Projekt
+            </a>
+            <a href="/html/Impressum.html">
+                Impressum
+            </a>
+        </nav>
+    </div>
+
+    <header class="hero-header">
+    <div class="hero-dark-overlay"></div>
+    <a href="https://www.bvsg-nu.info/startseite/aktivitaeten/robotik/"
+       target="_blank"
+       class="image-button">
+        <img src="/png/FLLLogo.svg" alt="BvSG Robotik">
+    </a>
+    <div class="header-overlay">
+        <p class="hero-label">BvSG ROBOTIK AG - BIODIVERSITÄT HÖHLE</p>
+        <h1>Cave <span>Monitor</span></h1>
+        <p class="hero-subtitle">
+            Erforschung des Lebensraums Höhle.
+        </p>
+        <a href="#mission" class="hero-link">
+            Unser Projekt entdecken <span>→</span>
+        </a>
+    </div>
+    <img src="/png/pol.svg" class="rock-edge" alt="">
+    </header>
+
+    <section class="mission" id="mission">
+    <div class="mission-inner">
+    <h2>Unsere Mission</h2>
+    <p>
+      Unsere Mission: Wir möchten Technologie, Kreativität und Forschung nutzen,
+      um natürliche Lebensräume zu verstehen und zu schützen. Dazu untersuchen wir unter 
+      anderem die Fledermauspopulationen in der Nähe von Arnegg indem wir die drei 
+      Höhleneingänge beim Banzenloch mit Lichtschranken ausstatten. Dadurch erhoffen
+      wir uns, die Aktivität der Fledermäuse während ihrer Winterruhe zwischen Januar
+      und April zu verstehen und herauszufinden, welche Umwelteinflüsse diese
+      beeinflussen. Die Lichtschranken erlauben uns auch zu erkennen, welche
+      anderen Tiere das Banzenloch als Unterschlupf nutzen. Das Forschungsprojekt soll
+      uns so einen möglichst genauen Eindruck davon verleihen, wie wichtig Höhlen
+      für die Biodiversität in unseren Wäldern sind.
+    </p>
+    </div>
+    </section>
+
+    <section class="partners">
+    <h2>Unsere Partner</h2>
+    <div class="partner-container">
+        <a href="https://www.bauhaus.info/fc/ulm/599"
+           target="_blank"
+           class="partner-link">
+            <img src="/png/Bauhaus.png" alt="Bauhaus Ulm">
+        </a>
+    </div>
+    </section>  
+    
+    <div class="countdown-container">
+        <h1>Zeit bis zum FLL Regionalwettbewerb</h1>
+        <div id="countdown">
+            <div class="time-box">
+                <span id="days">00</span>
+                <p>Tage</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">00</span>
+                <p>Stunden</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <p>Minuten</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <p>Sekunden</p>
+            </div>
+        </div>
+    </div>
+    <script src="/Js/scripttimer.js"></script>
+    <script src="/Js/scriptmenu.js"></script>
+</body>
+</html>
