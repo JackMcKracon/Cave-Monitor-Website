@@ -1,11 +1,11 @@
 .sp {
   --sp-bg: #f6f7fb;
   --sp-card: #ffffff;
-  --sp-text: #1a2433;
-  --sp-text-soft: #5b6676;
-  --sp-border: #e3e6ed;
-  --sp-border-dashed: #c3c9d4;
-  --sp-link: #2a5bd7;
+  --sp-text: #000000;
+  --sp-text-soft: #444444;
+  --sp-border: #ebebeb;
+  --sp-border-dashed: #d1d1d1;
+  --sp-link: #bd2429;
   --sp-radius: 12px;
   --sp-gap: 20px;
   background: #ffffff;
