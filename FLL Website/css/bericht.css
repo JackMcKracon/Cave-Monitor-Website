@@ -4,13 +4,14 @@
     border-bottom: 1px dashed #444444;
 }
 .bericht-bild {
-    width: 100%;
+    display: block;
+    width: 90%;
     height: auto;
     object-fit: contain;
-    margin-bottom: 15px;
+    margin: 0 auto 15px auto;
 }
 .bericht a {
-    color: #bd2429;
+    color: #BD2429;
     text-decoration: none;
     font-weight: bold;
 }
@@ -18,7 +19,7 @@
     text-decoration: underline;
 }
 .berichte-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
 }
