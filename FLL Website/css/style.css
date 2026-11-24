@@ -159,58 +159,7 @@ html, body {
         width: 220px;
     }
 }
-.menu-container {
-    position: fixed;
-    top: 20px;
-    right: 25px;
-    z-index: 1000;
-}
-.menu-button {
-    width: 45px;
-    height: 45px;
-    background: #000000;
-    border: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    cursor: pointer;
-}
-.menu-button span {
-    width: 5px;
-    height: 5px;
-    background: #ffffff;
-    border-radius: 50%;
-}
-.dropdown-menu {
-    position: absolute;
-    top: 55px;
-    right: 0;
-    width: 210px;
-    padding: 5px;
-    background: #000000;
-    display: none;
-}
-.dropdown-menu.active {
-    display: block;
-}
-.dropdown-menu a {
-    display: block;
-    padding: 12px;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 15px;
-}
-.dropdown-menu a:hover {
-    background: #444444;
-}
-@media (max-width: 600px) {
-    .menu-container {
-        top: 15px;
-        right: 15px;
-    }
-}
+
 .mission {
   padding: 55px 24px;
   background: #ffffff;
@@ -272,7 +221,7 @@ h1 {
     color:  #E5E5E5;
 }
 .menu-container {
-    position: fixed;
+    position: absolute;
     top: 35px;
     right: 45px;
     z-index: 9999;
