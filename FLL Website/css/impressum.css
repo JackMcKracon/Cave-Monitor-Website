@@ -1,0 +1,89 @@
+
+/* Allgemeine Einstellungen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #444444;
+    line-height: 1.7;
+    padding: 40px 20px;
+}
+
+/* Impressum-Bereich */
+.impressum {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 45px 55px;
+    background-color: #ffffff;
+}
+
+/* Hauptüberschrift */
+.impressum h1 {
+    font-size: 2.5rem;
+    color: #bd2429;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #bd2429;
+}
+
+/* Unterüberschriften */
+.impressum h2 {
+    font-size: 1.4rem;
+    color: #bd2429;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+/* Kleinere Überschriften */
+.impressum h3 {
+    font-size: 1.1rem;
+    color: #444444;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Fließtext */
+.impressum p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+/* E-Mail-Links */
+.impressum a {
+    color: #2463a6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.impressum a:hover {
+    color: #12385f;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .impressum {
+        padding: 25px 20px;
+    }
+
+    .impressum h1 {
+        font-size: 2rem;
+    }
+
+    .impressum h2 {
+        font-size: 1.2rem;
+    }
+
+    .impressum p {
+        font-size: 0.95rem;
+    }
+}
