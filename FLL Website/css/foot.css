@@ -11,3 +11,20 @@
     margin: 0;
     line-height: 1.6;
 }
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #bd2429;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #aa2429;
+    text-decoration: underline;
+}
