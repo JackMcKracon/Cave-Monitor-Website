@@ -1,11 +1,11 @@
 .bericht {
-    padding: 20px 0;
+    padding: 25px 0;
     margin-bottom: 20px;
-    border-bottom: 1px dashed #444444;
+    border-bottom: 2px dashed #444444;
 }
 .bericht-bild {
     display: block;
-    width: 90%;
+    width: 70%;
     height: auto;
     object-fit: contain;
     margin: 0 auto 15px auto;
@@ -19,17 +19,19 @@
     text-decoration: underline;
 }
 .berichte-container {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
 .subpage-header {
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
-    padding: 15px 0;
+    padding: 25px 0;
     margin: 0;
+    margin-left: calc(50% - 50vw);
     background: #fff;
     border-bottom: 3px solid #000000;
+
 }
 
 .subpage-nav {

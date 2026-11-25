@@ -1,0 +1,33 @@
+.subpage-header {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 25px 0;
+    margin: 0;
+    margin-left: calc(50% - 50vw);
+    background: #fff;
+    border-bottom: 3px solid #000000;
+
+}
+
+.subpage-nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.subpage-nav a {
+    transform: translateY(-3px);
+    color: #000;
+    text-decoration: none;
+    font-size: 1.17em;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.subpage-nav a:hover {
+    font-weight: 700;
+}
