@@ -336,6 +336,7 @@ h1 {
 .menu-button.active span:nth-child(3) {
     transform: translateY(-11.5px) rotate(-45deg);
 }
+
 .site-footer {
     background-color: #FFFFFF;
     border-top: 1px solid #e5e5e5;
@@ -348,4 +349,21 @@ h1 {
     font-size: 14px;
     margin: 0;
     line-height: 1.6;
+}
+
+.footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #bd2429;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #aa2429;
+    text-decoration: underline;
 }
